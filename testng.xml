@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Users API Suite" verbose="1" parallel="false">
+    <test name="Users API Tests">
+        <classes>
+            <class name="ApiTest.ApiTest"/>
+        </classes>
+    </test>
+</suite>
